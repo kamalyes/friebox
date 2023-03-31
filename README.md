@@ -53,7 +53,7 @@ python -m friebox --host={ip} --port={port} # 自定义
 
 ```python
 from friebox.public.apm import APM
-# friebox version >= 1.0.2
+# friebox version >= 1.0.3
 apm = APM(pkgName='com.bilibili.app.in',deviceId='ca6bd5a5',platform='Android', surfaceview=True, noLog=True)
 # apm = APM(pkgName='com.bilibili.app.in', platform='iOS') only supports one device
 # surfaceview： False = gfxinfo (Developer - GPU rendering mode - adb shell dumpsys gfxinfo)

@@ -155,6 +155,7 @@
       "usbmux",
       "usbmuxd",
       "wdaproxy",
+      "werkzeug",
       "wifiadr",
       "writelen",
       "WRONLY",
