@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>{% block title %} {% endblock %}</title>
     <!-- CSS files -->
-    <link rel="icon" href="./static/images/logo.svg">
-    <link rel="stylesheet" href="./static/css/tabler.min.css">
-    <link rel="stylesheet" href="./static/css/tabler.demo.min.css" />
+    <link rel="shortcut icon" href="../static/images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/tabler.min.css">
+    <link rel="stylesheet" href="../static/css/tabler.demo.min.css" />
     <!-- Select2-->
-    <link rel="stylesheet" href="./static/css/select2.min.css" />
-    <link rel="stylesheet" href="./static/css/select2-bootstrap-5-theme.min.css" />
-    <link rel="stylesheet" href="./static/css/select2-bootstrap-5-theme.rtl.min.css" />
+    <link rel="stylesheet" href="../static/css/select2.min.css" />
+    <link rel="stylesheet" href="../static/css/select2-bootstrap-5-theme.min.css" />
+    <link rel="stylesheet" href="../static/css/select2-bootstrap-5-theme.rtl.min.css" />
     <!-- Sweetalert2-->
-    <link rel="stylesheet" href="./static/css/sweetalert2.min.css" />
+    <link rel="stylesheet" href="../static/css/sweetalert2.min.css" />
     <!--highlight-->
-    <link rel="stylesheet" href="./static/css/highlight.min.css">
+    <link rel="stylesheet" href="../static/css/highlight.min.css">
 
     {% block css %}
     {% endblock %}
@@ -30,7 +30,7 @@
             </button>
             <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
                 <a href="https://github.com/kamalyes/friebox" target="_blank">
-                    <img src="./static/images/logo.svg" width="110" height="32" alt="friebox" class="navbar-brand-image">
+                    <img src="../static/images/logo.svg" width="110" height="32" alt="friebox" class="navbar-brand-image">
                 </a>
                 <label style="margin-left: 10px;font-weight: bolder;font-style: normal;font-size: 20px;">friebox</label>
             </h1>
@@ -125,7 +125,7 @@
                         </li>
                         <li class="list-inline-item">
                             <a href="https://github.com/kamalyes/friebox/releases" target="_blank" class="link-secondary" rel="noopener">
-                                {% if lan == 'zh_CN' %} 版本 {% else %} Releases {% endif %} . V1.0.1
+                                {% if lan == 'zh_CN' %} 版本 {% else %} Releases {% endif %} . V1.0.2
                             </a>
                         </li>
                     </ul>
@@ -258,32 +258,32 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <img  alt="" src="./static/images/coffee.png">
+                <img  alt="" src="../static/images/coffee.png">
             </div>
         </div>
     </div>
 </div>
 
 <!-- JQ JS -->
-<script src="./static/js/jquery.min.js"></script>
+<script src="../static/js/jquery.min.js"></script>
 <!-- tabler -->
-<script src="./static/js/tabler.min.js"></script>
-<script src="./static/js/tabler.demo.min.js"></script>
+<script src="../static/js/tabler.min.js"></script>
+<script src="../static/js/tabler.demo.min.js"></script>
 <!-- Sweetalert2 -->
-<script src="./static/js/sweetalert2.min.js"></script>
+<script src="../static/js/sweetalert2.min.js"></script>
 <!-- Select2-->
-<script src="./static/js/select2.min.js"></script>
+<script src="../static/js/select2.min.js"></script>
 <!-- Apexcharts-->
-<script src="./static/js/apexcharts.js"></script>
+<script src="../static/js/apexcharts.js"></script>
 <!-- highlight -->
-<script src="./static/js/highlight.min.js"></script>
+<script src="../static/js/highlight.min.js"></script>
 <!-- Highcharts-->
-<script src="./static/js/highstock.js"></script>
-<script src="./static/js/gray.js"></script>
+<script src="../static/js/highstock.js"></script>
+<script src="../static/js/gray.js"></script>
 
 <!-- html2canvas -->
-<script src="./static/js/html2canvas.min.js"></script>
-<script src="./static/js/socket.io.js"></script>
+<script src="../static/js/html2canvas.min.js"></script>
+<script src="../static/js/socket.io.js"></script>
 <script>
 
     var platform = '{{ platform }}'; // 平台
