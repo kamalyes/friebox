@@ -1,6 +1,6 @@
 <p align="center">
 <a href="#">
-<img src="./friebox/static/images/logo.svg" alt="friebox" width="150">
+<img src="https://cdn.jsdelivr.net/gh/kamalyes/friebox@master/friebox/static/images/logo.svg" alt="friebox" width="150">
 </a>
 
 </p>
@@ -20,9 +20,12 @@ friebox - Android/iOS性能数据的实时采集工具。
 
 - 安装 Python 3.10 + [**Download**](https://www.python.org/downloads/)
 - 更新adb包（选择性）<https://developer.android.google.cn/studio/releases/platform-tools?hl=zh_cn>
- Windows版本：<https://dl.google.com/android/repository/platform-tools-latest-windows.zip>
- Mac版本：<https://dl.google.com/android/repository/platform-tools-latest-windows.zip>
- Linux版本：<https://dl.google.com/android/repository/platform-tools-latest-linux.zip>
+
+```bash
+Windows版本：https://dl.google.com/android/repository/platform-tools-latest-windows.zip
+Mac版本：https://dl.google.com/android/repository/platform-tools-latest-windows.zip
+Linux版本：https://dl.google.com/android/repository/platform-tools-latest-linux.zip
+```
 
 💡 如果Windows用户需要测试iOS，请先安装Itunes.
 
@@ -50,7 +53,7 @@ python -m friebox --host={ip} --port={port} # 自定义
 
 ```python
 from friebox.public.apm import APM
-# friebox version >= 1.0.0
+# friebox version >= 1.0.1
 apm = APM(pkgName='com.bilibili.app.in',deviceId='ca6bd5a5',platform='Android', surfaceview=True, noLog=True)
 # apm = APM(pkgName='com.bilibili.app.in', platform='iOS') only supports one device
 # surfaceview： False = gfxinfo (Developer - GPU rendering mode - adb shell dumpsys gfxinfo)
