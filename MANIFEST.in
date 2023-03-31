@@ -1,0 +1,6 @@
+recursive-include friebox/public *.html *.js *.css *.png *.py
+recursive-include friebox/report *.html *.js *.css *.png *.py *.json *.log
+recursive-include friebox/static *.html *.js *.css *.png *.py
+recursive-include friebox/templates *.html *.js *.css *.png *.py
+recursive-include friebox/view *.html *.js *.css *.png *.py
+recursive-include friebox/public/adb *
